@@ -1,0 +1,99 @@
+
+
+body {
+  background: #181a20;
+  color: #e0e0e0;
+  font-family: 'Fira Mono', 'JetBrains Mono', 'Menlo', 'Monaco', 'Consolas', monospace;
+}
+
+.App {
+  text-align: center;
+  color: #e0e0e0;
+}
+
+.navbar {
+  background: #23272e !important;
+  border-bottom: 1px solid #23272e;
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #00ffe7 !important;
+  font-family: inherit;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: color 0.2s;
+}
+.navbar-brand:hover, .navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
+  color: #ff00a6 !important;
+}
+
+.octofit-logo {
+  height: 36px;
+  margin-right: 10px;
+  filter: grayscale(1) brightness(1.5) drop-shadow(0 0 4px #00ffe7);
+}
+
+h1, h2, h3, h4, h5, h6, .card-title {
+  color: #00ffe7;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+a, .App-link {
+  color: #00ffe7;
+  text-decoration: underline dotted;
+  transition: color 0.2s;
+}
+a:hover, .App-link:hover {
+  color: #ff00a6;
+}
+
+.btn-primary, .btn-outline-light {
+  background: #23272e;
+  border: 1px solid #00ffe7;
+  color: #00ffe7;
+  font-weight: 600;
+  font-family: inherit;
+  letter-spacing: 1px;
+  transition: background 0.2s, color 0.2s;
+  box-shadow: none;
+}
+.btn-primary:hover, .btn-outline-light:hover {
+  background: #00ffe7;
+  color: #181a20;
+  border: 1px solid #ff00a6;
+}
+
+.table {
+  background: #23272e;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: none;
+  color: #e0e0e0;
+  font-size: 0.98rem;
+}
+.table thead {
+  background: #181a20;
+  color: #00ffe7;
+  border-bottom: 2px solid #00ffe7;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #23272e;
+}
+.table-bordered th, .table-bordered td {
+  border: 1px solid #23272e;
+}
+
+.card {
+  border-radius: 6px;
+  background: #23272e;
+  box-shadow: none;
+  border: 1px solid #23272e;
+}
+.card-title {
+  color: #00ffe7;
+}
+.alert-info {
+  background: #23272e;
+  color: #00ffe7;
+  border: 1px solid #00ffe7;
+}
